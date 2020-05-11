@@ -1,12 +1,29 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.h2 {
+  margin: 16px auto;
+}
+
 .question {
   font-family: Roboto;
-
+  border-left: 8px solid #DDDDDD;
+  padding: 16px 16px;
+  margin: 16px auto;
+  width: 400px;
 }
 
 
 .answer {
   font-family: Roboto;
+  background-color: #FEFFE1;
+  border-left: 8px solid #DDDDDD;
+  padding: 16px 16px;
+  margin: 16px auto;
+  width: 400px;
+}
+
+.link {
+  width: 400px;
+  margin: 16px auto;
 }

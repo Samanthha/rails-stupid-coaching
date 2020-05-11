@@ -1,6 +1,6 @@
-<h2>Stupid coaching</h2>
-
 <div class="container">
+
+<h2>Stupid coaching</h2>
 
   <div class='question'>
     <%= @question %><br>
@@ -8,10 +8,13 @@
   </div>
 
   <div class="answer">
-    <%= @answer %><br>
+    <strong><%= @answer %></strong><br>
     --Your coach<br>
   </div>
+
+  <div class="link">
     <%= link_to 'Ask a new question', '/ask'%>
+  </div>
 
 </div>
 
